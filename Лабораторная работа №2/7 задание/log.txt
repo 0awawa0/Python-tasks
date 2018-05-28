@@ -1,0 +1,85 @@
+ffmpeg version N-89794-gc51301db14 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth --enable-libmfx
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  3.100 / 58.  3.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+[mp3 @ 000001af13359540] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from 'E:\Python\Лабораторные работы Шария\Лаба 2\7 задание\Atals, Rise!.mp3':
+  Metadata:
+    album_artist    : Metallica
+    title           : Atlas, Rise!
+    album           : Hardwiredto Self-Destruct
+    track           : 02/06
+    disc            : 1/2
+    artist          : Metallica
+    genre           : Thrash Metal
+    comment         : Metbash.com
+    date            : 2016
+  Duration: 00:06:28.60, start: 0.000000, bitrate: 323 kb/s
+    Stream #0:0: Audio: mp3, 44100 Hz, stereo, s16p, 320 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, mp3, to 'tmp\mix0.mp3':
+  Metadata:
+    TPE2            : Metallica
+    TIT2            : Atlas, Rise!
+    TALB            : Hardwiredto Self-Destruct
+    TRCK            : 02/06
+    TPOS            : 1/2
+    TPE1            : Metallica
+    TCON            : Thrash Metal
+    comment         : Metbash.com
+    TDRC            : 2016
+    TSSE            : Lavf58.3.100
+    Stream #0:0: Audio: mp3 (libmp3lame), 44100 Hz, stereo, s16p
+    Metadata:
+      encoder         : Lavc58.9.100 libmp3lame
+ffmpeg version N-89794-gc51301db14 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth --enable-libmfx
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  3.100 / 58.  3.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+[mp3 @ 000001c5af9d9300] Format mp3 detected only with low score of 1, misdetection possible!
+[mp3 @ 000001c5af9d9300] Failed to read frame size: Could not seek to 1026.
+concat:mix0.mp3: Invalid argument
+ffmpeg version N-89794-gc51301db14 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth --enable-libmfx
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  3.100 / 58.  3.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+[mp3 @ 000001748b8c9540] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from 'E:\Python\Лабораторные работы Шария\Лаба 2\7 задание\Sad But True.mp3':
+  Duration: 00:05:25.68, start: 0.000000, bitrate: 192 kb/s
+    Stream #0:0: Audio: mp3, 48000 Hz, stereo, s16p, 192 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, mp3, to 'tmp\mix1.mp3':
+  Metadata:
+    TSSE            : Lavf58.3.100
+    Stream #0:0: Audio: mp3 (libmp3lame), 48000 Hz, stereo, s16p
+    Metadata:
+      encoder         : Lavc58.9.100 libmp3lame
+size=      23kB time=00:00:01.41 bitrate= 132.9kbits/s speed=1.64x    size=       7kB time=00:00:00.40 bitrate= 139.8kbits/s speed=0.609x    size=      60kB time=00:00:03.78 bitrate= 129.8kbits/s speed=2.79x    size=      44kB time=00:00:02.80 bitrate= 129.7kbits/s speed= 2.4x    size=     105kB time=00:00:06.66 bitrate= 129.0kbits/s speed=3.58x    size=      86kB time=00:00:05.49 bitrate= 128.9kbits/s speed=3.29x    size=     152kB time=00:00:09.66 bitrate= 128.7kbits/s speed= 4.1x    size=     130kB time=00:00:08.28 bitrate= 128.6kbits/s speed=3.81x    size=     157kB time=00:00:10.00 bitrate= 128.7kbits/s speed=4.16x    
+video:0kB audio:157kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.286611%
+size=     137kB time=00:00:08.76 bitrate= 128.6kbits/s speed=3.28x    size=     149kB time=00:00:09.50 bitrate= 128.5kbits/s speed=2.82x    size=     157kB time=00:00:10.00 bitrate= 128.5kbits/s speed= 2.6x    
+video:0kB audio:157kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.147030%
